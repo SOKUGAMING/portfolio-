@@ -1,0 +1,99 @@
+/* General Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #001f3f, #0074D9);
+    color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #001f3f;
+    border-bottom: 2px solid #0074D9;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #0074D9;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 2.5em;
+    color: #f1f1f1;
+}
+
+p {
+    font-size: 1.2em;
+    color: #dddddd;
+}
+
+/* Navbar styling */
+nav {
+    background-color: #004080;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f1f1f1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #001f3f;
+    border: 1px solid #0074D9;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #0074D9;
+    border-color: #004080;
+}
+
+/* Section Styling */
+section {
+    margin: 30px 15%;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #f1f1f1;
+}
+
+section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #001f3f;
+    border-top: 2px solid #0074D9;
+    color: #dddddd;
+}
